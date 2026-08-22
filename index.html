@@ -64,7 +64,8 @@
   <div class="page-container">
     <header class="globalheader">
       <div class="globalheader__border"></div>
-      </div><!-- /.globalheader-util -->
+      <p class="globalheader-home"><a href="../index.html"><i class="globalheader-home__ico"><svg role="img" title="Home"><use xlink:href="images/urdQKecaD0OO.svg#top_s"></use></svg></i><span class="globalheader-home__label">Home</span></a></p>
+      <div class="globalheader-util"></div>
     </header>
     <div class="globalsidenav is-stage js-sidenav-close-trigger" id="js-globalsidenav">
       <div class="globalsidenav__inner">
@@ -95,6 +96,8 @@
         </div>
       </div>
     </div>
+    <div class="globalsidenav__layer"></div>
+    <p class="globalsidenav-open"><a href="#" class="globalsidenav-open__btn js-sidenav-open-btn"><i class="globalsidenav-open__ico"></i><span class="globalsidenav-open__label">MENU</span></a></p>
     <div class="stage-body">
       <div class="page-header-bar page-header-bar--stage">
         <div class="page-header-bar__bg"></div>
@@ -105,6 +108,7 @@
       <div class="stage-outer">
         <div class="stage-content">
           <div class="stage-mainslide-wrap">
+            <h2 class="stage-name__header">All Stages</h2>
             <div class="stage-mainslide">
               <div class="stage-name__body" id="js-stage-name">
                 <div class="stage-name__item">
@@ -471,11 +475,13 @@
       <!-- /.globalfooter-footer -->
     </footer>
   </div>
+  <div id="privacyModal" class="modal u-hide">
+    <div class="privacyModal__body">
+      <div class="privacyModal__bg js-closeModal"></div>
       <div class="privacyModal__contents"></div>
+      <div class="privacyModal__close"><a href="#" class="js-closeModal"></a></div>
     </div>
   </div><!-- /.page-container -->
-
-
 
   <script>
     // Safety net: this page's cookie-consent popup used to auto-open ~300ms
